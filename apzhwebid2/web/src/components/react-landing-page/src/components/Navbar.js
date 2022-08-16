@@ -32,7 +32,7 @@ export default function Navbar(props) {
           >
             <i
               className={
-                (props.transparent ? "text-white" : "text-gray-800") +
+                (props.transparent ? "text-green-300" : "text-gray-800") +
                 " fas fa-bars"
               }
             ></i>
@@ -40,19 +40,19 @@ export default function Navbar(props) {
         </div>
         <div
           className={
-            "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
-            (navbarOpen ? " block rounded shadow-lg" : " hidden")
+            "lg:flex flex-grow lg:bg-transparent lg:shadow-none pr-0" +
+            (navbarOpen ? " block rounded shadow-lg bg-green-300 bg-opacity-20 " : " hidden")
           }
           id="example-navbar-warning"
         >
 
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <ul className="flex flex-col items-center lg:flex-row list-none lg:ml-auto ">
           {/* SM-icon1 */}
             <li className="flex items-center">
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
+                    ? "lg:text-white lg:hover:text-gray-300 text-white hover:text-black hover:bg-green-800"
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
@@ -61,9 +61,9 @@ export default function Navbar(props) {
                 <i
                   className={
                     (props.transparent
-                      ? "lg:text-orange-300 text-orange-500"
-                      : "text-orange-500") +
-                    " fab fa-facebook text-orange text-lg leading-lg "
+                      ? "lg:text-blue-500 text-blue-500"
+                      : "text-blue-500") +
+                    " fab fa-facebook text-blue-500 text-lg "
                   }
                 />
                 <span className="lg:hidden inline-block ml-2">Share</span>
@@ -75,8 +75,8 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-white text-white hover:text-black hover:bg-green-800"
+                    : "text-white hover:text-white") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
                 href="#pablo"
@@ -84,9 +84,9 @@ export default function Navbar(props) {
                 <i
                   className={
                     (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " fab fa-twitter text-lg leading-lg "
+                      ? "lg:text-blue-400 text-blue-400"
+                      : "text-blue-400") +
+                    " fab fa-twitter text-blue-400 text-lg "
                   }
                 />
                 <span className="lg:hidden inline-block ml-2">Tweet</span>
@@ -98,8 +98,8 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-white text-white hover:text-black hover:bg-green-800"
+                    : "text-gray-800 hover:text-white hover:bg-black") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
                 href="#pablo"
@@ -107,9 +107,9 @@ export default function Navbar(props) {
                 <i
                   className={
                     (props.transparent
-                      ? "lg:text-gray-300 text-gray-500"
-                      : "text-gray-500") +
-                    " fab fa-linkedin text-lg leading-lg "
+                      ? "lg:text-blue-400 text-blue-400"
+                      : "text-blue-400") +
+                    " fab fa-linkedin text-blue-400 text-lg "
                   }
                 />
                 <span className="lg:hidden inline-block ml-2">Profile</span>
