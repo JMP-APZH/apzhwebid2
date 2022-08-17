@@ -47,9 +47,14 @@ const HomePage = () => {
               }}>
             <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
           </div>
-          <div className="container relative mx-auto">
+          <div
+            className="container relative mx-auto"
+            // data-aos="fade-in"
+            >
               <div className="items-center flex flex-wrap">
-                <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div
+                  className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center"
+                  data-aos="fade-in">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
                       <span className="text-green-300">Audits</span>
@@ -63,18 +68,19 @@ const HomePage = () => {
                       risk management and process optimisation.
                     </p>
 
-                    <button
+                    {/* <button
                       className='bg-transparent hover:bg-green-300 text-green-300 hover:text-red-800 hover:font-semibold
                                   font-semibold p-4 border border-red-800 hover:border-red-800
                                   hover:border-transparent rounded inline-block mt-5 cursor-pointer'>
                       Know more?
-                    </button>
+                    </button> */}
 
                     <a
                       href='#'
                       className='bg-transparent hover:bg-green-300 text-green-300 hover:text-red-800 hover:font-semibold
                       font-semibold p-4 border border-red-800 hover:border-red-800
-                      hover:border-transparent rounded'
+                      hover:border-transparent rounded inline-block mt-5 cursor-pointer'
+                      data-aos="fade-up"
                     >
                       Know more?
                     </a>
@@ -130,14 +136,19 @@ const HomePage = () => {
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <div
+                className="w-full md:w-4/12 ml-auto mr-auto px-4"
+                data-aos="fade-right">
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  style={{ maxWidth: "300px" }}
                 />
               </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div
+                className="w-full md:w-5/12 ml-auto mr-auto px-4"
+                data-aos="fade-left">
                 <div className="md:pr-12">
                   {/* <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
                     <i className="fas fa-rocket text-xl"></i>
@@ -202,7 +213,9 @@ const HomePage = () => {
         <section className="pt-20 pb-48 bg-black text-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
-              <div className="w-full lg:w-6/12 px-4">
+              <div
+                className="w-full lg:w-6/12 px-4"
+              >
                 <h2 className="text-4xl font-semibold uppercase">
                   Our Specialists
                 </h2>
@@ -212,7 +225,9 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div
+                className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+                data-aos="flip-right">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -250,7 +265,9 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div
+                className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+                data-aos="flip-left">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -282,7 +299,9 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div
+                className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+                data-aos="flip-right">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -326,7 +345,9 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div
+                className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+                data-aos="flip-left">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -395,7 +416,7 @@ const HomePage = () => {
           </div>
 
           {/* Contact Header */}
-          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div className="container mx-auto px-4 lg:pt-24 lg:pb-64 py-20">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white uppercase">
@@ -453,7 +474,9 @@ const HomePage = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-green-300">
+                <div
+                  className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-green-300"
+                  data-aos="fade-up-right">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold text-black">
                       Want to work with us?

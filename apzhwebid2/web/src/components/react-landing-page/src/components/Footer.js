@@ -25,11 +25,8 @@ export default function Footer() {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-semibold">
-              Stay Tuned!
+            Follow us on
             </h4>
-            <h5 className="text-lg mt-4  text-white">
-              Follow us on
-            </h5>
             <div className="mt-2">
               <button
                 className="text-green-300 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -65,22 +62,22 @@ export default function Footer() {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation">About Us
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://blog.creative-tim.com">Blog
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://www.github.com/creativetimofficial">Github
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
                     </a>
                   </li>
@@ -93,22 +90,22 @@ export default function Footer() {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                     href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
                   </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/terms">Terms & Conditions
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/privacy">Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    <a className="text-gray-700 hover:text-green-400 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/contact-us">Contact Us
                     </a>
                   </li>
@@ -126,7 +123,7 @@ export default function Footer() {
               <br />
               <a
                 href=""
-                className="text-xs text-gray-600 hover:text-gray-900"
+                className="text-xs text-gray-600 hover:text-green-400"
               >
                 By JMP
               </a>
