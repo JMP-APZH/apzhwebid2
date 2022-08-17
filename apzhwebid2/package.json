@@ -28,6 +28,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "latest",
+    "aos": "^2.3.4",
     "react-helmet": "^6.1.0"
   }
 }
